@@ -11,4 +11,4 @@ applications:
     CF_USERNAME:
     CF_PASSWORD:
     CF_ENDPOINT: /v2/app_usage_events
-    CF_SKIPSSL: true
+    CF_SKIPSSL: false
