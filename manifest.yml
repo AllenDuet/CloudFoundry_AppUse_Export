@@ -3,7 +3,7 @@ applications:
 - name: AppUse
   memory: 1G
   instances: 1
-  path: target/AppUse-sleuth-0.1.0.jar
+  path: target/AppUse-0.1.0.jar
   host: AppUse
   env:
     SPRING_PROFILES_DEFAULT: cloud
