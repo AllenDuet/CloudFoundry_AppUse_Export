@@ -1,0 +1,1458 @@
+{
+  "total_results": 354,
+  "total_pages": 8,
+  "prev_url": null,
+  "next_url": "/v2/app_usage_events?order-direction=asc&page=2&results-per-page=50",
+  "resources": [
+    {
+      "metadata": {
+        "guid": "1206ae6f-47e0-42d4-819f-16b91fa06db8",
+        "url": "/v2/app_usage_events/1206ae6f-47e0-42d4-819f-16b91fa06db8",
+        "created_at": "2017-07-24T17:42:46Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 256,
+        "previous_memory_in_mb_per_instance": 256,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "35b8ad17-3a5a-4736-b859-c230fb347d13",
+        "app_name": "metrics-aggregator-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "35b8ad17-3a5a-4736-b859-c230fb347d13",
+        "parent_app_name": "metrics-aggregator-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "f8a3e981-96b8-4518-aabe-c356dc7353bb",
+        "url": "/v2/app_usage_events/f8a3e981-96b8-4518-aabe-c356dc7353bb",
+        "created_at": "2017-07-24T17:42:47Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "35b8ad17-3a5a-4736-b859-c230fb347d13",
+        "parent_app_name": "metrics-aggregator-blue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "bd66a1cd-2c26-4d23-b3c3-ffdd8bdfa99b",
+        "url": "/v2/app_usage_events/bd66a1cd-2c26-4d23-b3c3-ffdd8bdfa99b",
+        "created_at": "2017-07-24T17:42:48Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "887e2581-2355-4522-b7aa-b41439ad7082",
+        "app_name": "metrics-ingestor-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "887e2581-2355-4522-b7aa-b41439ad7082",
+        "parent_app_name": "metrics-ingestor-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "5b7aac07-6eaf-4dc7-8fe5-cc312c90fc8e",
+        "url": "/v2/app_usage_events/5b7aac07-6eaf-4dc7-8fe5-cc312c90fc8e",
+        "created_at": "2017-07-24T17:42:48Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "887e2581-2355-4522-b7aa-b41439ad7082",
+        "parent_app_name": "metrics-ingestor-blue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "dac71cde-8f0b-49be-a860-ac884bc844d3",
+        "url": "/v2/app_usage_events/dac71cde-8f0b-49be-a860-ac884bc844d3",
+        "created_at": "2017-07-24T17:42:48Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 2,
+        "previous_instance_count": 2,
+        "app_guid": "33e5fccf-faa5-42c2-b982-abf099719b33",
+        "app_name": "mysql-logqueue-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "33e5fccf-faa5-42c2-b982-abf099719b33",
+        "parent_app_name": "mysql-logqueue-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "e2bd420c-2919-46fa-b7d6-6f8ad20feef2",
+        "url": "/v2/app_usage_events/e2bd420c-2919-46fa-b7d6-6f8ad20feef2",
+        "created_at": "2017-07-24T17:42:48Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "33e5fccf-faa5-42c2-b982-abf099719b33",
+        "parent_app_name": "mysql-logqueue-blue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "f24ffecf-ab03-4ad5-9ae5-27d38034e3ce",
+        "url": "/v2/app_usage_events/f24ffecf-ab03-4ad5-9ae5-27d38034e3ce",
+        "created_at": "2017-07-24T17:42:49Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "1c12160f-2d4c-4a26-9f23-9692f1f8e34f",
+        "app_name": "elasticsearch-logqueue-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "1c12160f-2d4c-4a26-9f23-9692f1f8e34f",
+        "parent_app_name": "elasticsearch-logqueue-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "e599355c-986c-4b40-bcca-6e5efa7a52dd",
+        "url": "/v2/app_usage_events/e599355c-986c-4b40-bcca-6e5efa7a52dd",
+        "created_at": "2017-07-24T17:42:50Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "1c12160f-2d4c-4a26-9f23-9692f1f8e34f",
+        "parent_app_name": "elasticsearch-logqueue-blue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "1d761288-491c-444e-b672-42d69296435a",
+        "url": "/v2/app_usage_events/1d761288-491c-444e-b672-42d69296435a",
+        "created_at": "2017-07-24T17:42:52Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "35b8ad17-3a5a-4736-b859-c230fb347d13",
+        "parent_app_name": "metrics-aggregator-blue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "86ed8fef-abcb-4c6d-a2ab-8774e92b225d",
+        "url": "/v2/app_usage_events/86ed8fef-abcb-4c6d-a2ab-8774e92b225d",
+        "created_at": "2017-07-24T17:42:52Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 256,
+        "previous_memory_in_mb_per_instance": 256,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "35b8ad17-3a5a-4736-b859-c230fb347d13",
+        "app_name": "metrics-aggregator-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "35b8ad17-3a5a-4736-b859-c230fb347d13",
+        "parent_app_name": "metrics-aggregator-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "b4c03741-99e7-4f4d-85de-ef44d8e745e7",
+        "url": "/v2/app_usage_events/b4c03741-99e7-4f4d-85de-ef44d8e745e7",
+        "created_at": "2017-07-24T17:42:52Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "887e2581-2355-4522-b7aa-b41439ad7082",
+        "parent_app_name": "metrics-ingestor-blue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "91e3e2eb-5b1c-4850-a50d-435a598a9b7d",
+        "url": "/v2/app_usage_events/91e3e2eb-5b1c-4850-a50d-435a598a9b7d",
+        "created_at": "2017-07-24T17:42:52Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "887e2581-2355-4522-b7aa-b41439ad7082",
+        "app_name": "metrics-ingestor-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "887e2581-2355-4522-b7aa-b41439ad7082",
+        "parent_app_name": "metrics-ingestor-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "1baf73ed-7a84-4a4a-b452-4d6189d80fa2",
+        "url": "/v2/app_usage_events/1baf73ed-7a84-4a4a-b452-4d6189d80fa2",
+        "created_at": "2017-07-24T17:42:52Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "33e5fccf-faa5-42c2-b982-abf099719b33",
+        "parent_app_name": "mysql-logqueue-blue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "8f4bb4f9-c7c2-40c5-91ff-7fe62a2f23e3",
+        "url": "/v2/app_usage_events/8f4bb4f9-c7c2-40c5-91ff-7fe62a2f23e3",
+        "created_at": "2017-07-24T17:42:52Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 2,
+        "previous_instance_count": 2,
+        "app_guid": "33e5fccf-faa5-42c2-b982-abf099719b33",
+        "app_name": "mysql-logqueue-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "33e5fccf-faa5-42c2-b982-abf099719b33",
+        "parent_app_name": "mysql-logqueue-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "fde4db9d-0986-4000-851d-1779582cca1a",
+        "url": "/v2/app_usage_events/fde4db9d-0986-4000-851d-1779582cca1a",
+        "created_at": "2017-07-24T17:42:53Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "1c12160f-2d4c-4a26-9f23-9692f1f8e34f",
+        "parent_app_name": "elasticsearch-logqueue-blue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "5329b3c1-b07f-49bb-b1e7-9ddcd4672339",
+        "url": "/v2/app_usage_events/5329b3c1-b07f-49bb-b1e7-9ddcd4672339",
+        "created_at": "2017-07-24T17:42:53Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "1c12160f-2d4c-4a26-9f23-9692f1f8e34f",
+        "app_name": "elasticsearch-logqueue-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "1c12160f-2d4c-4a26-9f23-9692f1f8e34f",
+        "parent_app_name": "elasticsearch-logqueue-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "e11d33db-9007-46b7-b95d-283c3e2203bc",
+        "url": "/v2/app_usage_events/e11d33db-9007-46b7-b95d-283c3e2203bc",
+        "created_at": "2017-07-24T17:43:10Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 256,
+        "previous_memory_in_mb_per_instance": 256,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "1c253008-7976-4640-b5bf-e496619df8c1",
+        "app_name": "metrics-aggregator",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "1c253008-7976-4640-b5bf-e496619df8c1",
+        "parent_app_name": "metrics-aggregator",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "d8706d6d-02e2-48c5-ac4a-a2331aea87e7",
+        "url": "/v2/app_usage_events/d8706d6d-02e2-48c5-ac4a-a2331aea87e7",
+        "created_at": "2017-07-24T17:43:11Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "1c253008-7976-4640-b5bf-e496619df8c1",
+        "parent_app_name": "metrics-aggregator",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "70b46b69-5b54-4abc-a125-a4aecabed4a3",
+        "url": "/v2/app_usage_events/70b46b69-5b54-4abc-a125-a4aecabed4a3",
+        "created_at": "2017-07-24T17:43:14Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 2,
+        "previous_instance_count": 2,
+        "app_guid": "77352c44-285f-4f26-91a1-8d5d9265dea2",
+        "app_name": "mysql-logqueue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "77352c44-285f-4f26-91a1-8d5d9265dea2",
+        "parent_app_name": "mysql-logqueue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "4e662d3b-15f3-463e-8d24-aa85b8df878a",
+        "url": "/v2/app_usage_events/4e662d3b-15f3-463e-8d24-aa85b8df878a",
+        "created_at": "2017-07-24T17:43:14Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "77352c44-285f-4f26-91a1-8d5d9265dea2",
+        "parent_app_name": "mysql-logqueue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "fabdf756-0ecf-431e-8752-666f0d8d25e9",
+        "url": "/v2/app_usage_events/fabdf756-0ecf-431e-8752-666f0d8d25e9",
+        "created_at": "2017-07-24T17:43:17Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "28343d6d-d949-4fed-81a4-646585645f5b",
+        "app_name": "metrics-ingestor",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "28343d6d-d949-4fed-81a4-646585645f5b",
+        "parent_app_name": "metrics-ingestor",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "554c38a2-a1c3-4545-88a9-df1989c2ff07",
+        "url": "/v2/app_usage_events/554c38a2-a1c3-4545-88a9-df1989c2ff07",
+        "created_at": "2017-07-24T17:43:17Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "28343d6d-d949-4fed-81a4-646585645f5b",
+        "parent_app_name": "metrics-ingestor",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "3e648c18-9ef3-4b00-8ec4-ef587de8d71a",
+        "url": "/v2/app_usage_events/3e648c18-9ef3-4b00-8ec4-ef587de8d71a",
+        "created_at": "2017-07-24T17:43:20Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "37731e65-746a-4ed8-81c3-e1e59c3deeff",
+        "app_name": "elasticsearch-logqueue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "37731e65-746a-4ed8-81c3-e1e59c3deeff",
+        "parent_app_name": "elasticsearch-logqueue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "882a3ec5-9e38-480c-a837-2cbd96c1be20",
+        "url": "/v2/app_usage_events/882a3ec5-9e38-480c-a837-2cbd96c1be20",
+        "created_at": "2017-07-24T17:43:20Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "37731e65-746a-4ed8-81c3-e1e59c3deeff",
+        "parent_app_name": "elasticsearch-logqueue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "a36ce8b7-9c6c-44f6-b74e-6209a0a06ad0",
+        "url": "/v2/app_usage_events/a36ce8b7-9c6c-44f6-b74e-6209a0a06ad0",
+        "created_at": "2017-07-24T17:43:36Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "9cf4cd07-40f0-43e6-81c7-54d5f249c436",
+        "app_name": "worker-app-dev",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "9cf4cd07-40f0-43e6-81c7-54d5f249c436",
+        "parent_app_name": "worker-app-dev",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "3d393615-cf34-4cde-a667-6f0555f22970",
+        "url": "/v2/app_usage_events/3d393615-cf34-4cde-a667-6f0555f22970",
+        "created_at": "2017-07-24T17:43:36Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "9cf4cd07-40f0-43e6-81c7-54d5f249c436",
+        "parent_app_name": "worker-app-dev",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "cc2dca27-44ea-41a4-8b26-4379024c0b8f",
+        "url": "/v2/app_usage_events/cc2dca27-44ea-41a4-8b26-4379024c0b8f",
+        "created_at": "2017-07-24T17:43:37Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "23e0a418-2955-4a95-b7e8-244b939b918d",
+        "app_name": "worker-health-check",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "23e0a418-2955-4a95-b7e8-244b939b918d",
+        "parent_app_name": "worker-health-check",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "9bfdd3df-10ae-4eca-84a3-f397364f8850",
+        "url": "/v2/app_usage_events/9bfdd3df-10ae-4eca-84a3-f397364f8850",
+        "created_at": "2017-07-24T17:43:37Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "23e0a418-2955-4a95-b7e8-244b939b918d",
+        "parent_app_name": "worker-health-check",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "ddbdbc66-dd39-41b2-824d-f6156c6f2a6a",
+        "url": "/v2/app_usage_events/ddbdbc66-dd39-41b2-824d-f6156c6f2a6a",
+        "created_at": "2017-07-24T17:43:51Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "1c253008-7976-4640-b5bf-e496619df8c1",
+        "parent_app_name": "metrics-aggregator",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "3ef5c66e-eb75-47f8-aad7-8f00960de8ad",
+        "url": "/v2/app_usage_events/3ef5c66e-eb75-47f8-aad7-8f00960de8ad",
+        "created_at": "2017-07-24T17:43:51Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 256,
+        "previous_memory_in_mb_per_instance": 256,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "1c253008-7976-4640-b5bf-e496619df8c1",
+        "app_name": "metrics-aggregator",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "1c253008-7976-4640-b5bf-e496619df8c1",
+        "parent_app_name": "metrics-aggregator",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "38fb1a8a-a770-4220-b031-fe83a755792d",
+        "url": "/v2/app_usage_events/38fb1a8a-a770-4220-b031-fe83a755792d",
+        "created_at": "2017-07-24T17:43:52Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "77352c44-285f-4f26-91a1-8d5d9265dea2",
+        "parent_app_name": "mysql-logqueue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "a7d7bdf9-b4ec-4deb-b3b8-862b8f84bf45",
+        "url": "/v2/app_usage_events/a7d7bdf9-b4ec-4deb-b3b8-862b8f84bf45",
+        "created_at": "2017-07-24T17:43:52Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 2,
+        "previous_instance_count": 2,
+        "app_guid": "77352c44-285f-4f26-91a1-8d5d9265dea2",
+        "app_name": "mysql-logqueue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "77352c44-285f-4f26-91a1-8d5d9265dea2",
+        "parent_app_name": "mysql-logqueue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "0f5e169d-fd31-43f1-9bc9-c0c1dbc20bff",
+        "url": "/v2/app_usage_events/0f5e169d-fd31-43f1-9bc9-c0c1dbc20bff",
+        "created_at": "2017-07-24T17:43:52Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "28343d6d-d949-4fed-81a4-646585645f5b",
+        "parent_app_name": "metrics-ingestor",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "67dbada4-5cfa-463d-9a29-ebdc2a9635f0",
+        "url": "/v2/app_usage_events/67dbada4-5cfa-463d-9a29-ebdc2a9635f0",
+        "created_at": "2017-07-24T17:43:52Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "37731e65-746a-4ed8-81c3-e1e59c3deeff",
+        "parent_app_name": "elasticsearch-logqueue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "3a1184c6-7a83-44f7-bb01-81db149e6fd3",
+        "url": "/v2/app_usage_events/3a1184c6-7a83-44f7-bb01-81db149e6fd3",
+        "created_at": "2017-07-24T17:43:52Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "28343d6d-d949-4fed-81a4-646585645f5b",
+        "app_name": "metrics-ingestor",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "28343d6d-d949-4fed-81a4-646585645f5b",
+        "parent_app_name": "metrics-ingestor",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "2562cc7d-eab4-4f7d-b808-d2da3fc5ef81",
+        "url": "/v2/app_usage_events/2562cc7d-eab4-4f7d-b808-d2da3fc5ef81",
+        "created_at": "2017-07-24T17:43:52Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "37731e65-746a-4ed8-81c3-e1e59c3deeff",
+        "app_name": "elasticsearch-logqueue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "37731e65-746a-4ed8-81c3-e1e59c3deeff",
+        "parent_app_name": "elasticsearch-logqueue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "6a719224-209e-4ad9-91f5-bd62434a5533",
+        "url": "/v2/app_usage_events/6a719224-209e-4ad9-91f5-bd62434a5533",
+        "created_at": "2017-07-24T17:43:55Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "538f2fc9-be18-4410-883c-959ec979ee81",
+        "app_name": "worker-reaper",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "538f2fc9-be18-4410-883c-959ec979ee81",
+        "parent_app_name": "worker-reaper",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "fcc5a3c1-f663-40d0-b97f-c8b124b5a5d4",
+        "url": "/v2/app_usage_events/fcc5a3c1-f663-40d0-b97f-c8b124b5a5d4",
+        "created_at": "2017-07-24T17:43:55Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "538f2fc9-be18-4410-883c-959ec979ee81",
+        "parent_app_name": "worker-reaper",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "bdccaf62-c71d-4dd2-b056-637065c3964f",
+        "url": "/v2/app_usage_events/bdccaf62-c71d-4dd2-b056-637065c3964f",
+        "created_at": "2017-07-24T17:43:56Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "b5353e68-65d6-4a3d-91b2-268aed8d7bf8",
+        "app_name": "worker-app-logs",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "b5353e68-65d6-4a3d-91b2-268aed8d7bf8",
+        "parent_app_name": "worker-app-logs",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "2a589265-4c6a-4e81-9b93-2365073aae9f",
+        "url": "/v2/app_usage_events/2a589265-4c6a-4e81-9b93-2365073aae9f",
+        "created_at": "2017-07-24T17:43:56Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "b5353e68-65d6-4a3d-91b2-268aed8d7bf8",
+        "parent_app_name": "worker-app-logs",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "0e8cd26d-3e47-4e12-81fd-4e7438df4a8c",
+        "url": "/v2/app_usage_events/0e8cd26d-3e47-4e12-81fd-4e7438df4a8c",
+        "created_at": "2017-07-24T17:43:59Z"
+      },
+      "entity": {
+        "state": "STOPPED",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "887e2581-2355-4522-b7aa-b41439ad7082",
+        "app_name": "metrics-ingestor-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "887e2581-2355-4522-b7aa-b41439ad7082",
+        "parent_app_name": "metrics-ingestor-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "00488631-9760-4687-b8ee-7682ff740367",
+        "url": "/v2/app_usage_events/00488631-9760-4687-b8ee-7682ff740367",
+        "created_at": "2017-07-24T17:44:00Z"
+      },
+      "entity": {
+        "state": "STOPPED",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 2,
+        "previous_instance_count": 2,
+        "app_guid": "33e5fccf-faa5-42c2-b982-abf099719b33",
+        "app_name": "mysql-logqueue-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "33e5fccf-faa5-42c2-b982-abf099719b33",
+        "parent_app_name": "mysql-logqueue-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "9618ba69-ee3d-4d58-a543-77ddafc91bca",
+        "url": "/v2/app_usage_events/9618ba69-ee3d-4d58-a543-77ddafc91bca",
+        "created_at": "2017-07-24T17:44:02Z"
+      },
+      "entity": {
+        "state": "STOPPED",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 4,
+        "previous_instance_count": 4,
+        "app_guid": "1c12160f-2d4c-4a26-9f23-9692f1f8e34f",
+        "app_name": "elasticsearch-logqueue-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "1c12160f-2d4c-4a26-9f23-9692f1f8e34f",
+        "parent_app_name": "elasticsearch-logqueue-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "58817235-e3bd-4c9d-904d-e098ad1c2fa3",
+        "url": "/v2/app_usage_events/58817235-e3bd-4c9d-904d-e098ad1c2fa3",
+        "created_at": "2017-07-24T17:44:02Z"
+      },
+      "entity": {
+        "state": "STOPPED",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 256,
+        "previous_memory_in_mb_per_instance": 256,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "35b8ad17-3a5a-4736-b859-c230fb347d13",
+        "app_name": "metrics-aggregator-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "4b5207f1-81be-49e4-98b1-f9091681e79f",
+        "buildpack_name": "binary_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "35b8ad17-3a5a-4736-b859-c230fb347d13",
+        "parent_app_name": "metrics-aggregator-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "4f7c50d6-084d-4abf-b98a-8dfe3e057a42",
+        "url": "/v2/app_usage_events/4f7c50d6-084d-4abf-b98a-8dfe3e057a42",
+        "created_at": "2017-07-24T17:44:08Z"
+      },
+      "entity": {
+        "state": "STARTED",
+        "previous_state": "STOPPED",
+        "memory_in_mb_per_instance": 512,
+        "previous_memory_in_mb_per_instance": 512,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "218a5eeb-7978-4704-b9a9-48518a979433",
+        "app_name": "metrics-blue",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "PENDING",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "218a5eeb-7978-4704-b9a9-48518a979433",
+        "parent_app_name": "metrics-blue",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "c66bb510-efaf-43f3-bd52-4ddc0c9545df",
+        "url": "/v2/app_usage_events/c66bb510-efaf-43f3-bd52-4ddc0c9545df",
+        "created_at": "2017-07-24T17:44:08Z"
+      },
+      "entity": {
+        "state": "STAGING_STARTED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": null,
+        "buildpack_name": null,
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "218a5eeb-7978-4704-b9a9-48518a979433",
+        "parent_app_name": "metrics-blue",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "6636ca57-8cca-4184-ab4a-7ea11f611d08",
+        "url": "/v2/app_usage_events/6636ca57-8cca-4184-ab4a-7ea11f611d08",
+        "created_at": "2017-07-24T17:44:53Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "9dc785d4-3779-4968-a011-a78725921555",
+        "buildpack_name": "nodejs_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "23e0a418-2955-4a95-b7e8-244b939b918d",
+        "parent_app_name": "worker-health-check",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "fd621def-83ae-4031-80e1-ab3ac417654d",
+        "url": "/v2/app_usage_events/fd621def-83ae-4031-80e1-ab3ac417654d",
+        "created_at": "2017-07-24T17:44:53Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "23e0a418-2955-4a95-b7e8-244b939b918d",
+        "app_name": "worker-health-check",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "9dc785d4-3779-4968-a011-a78725921555",
+        "buildpack_name": "nodejs_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "23e0a418-2955-4a95-b7e8-244b939b918d",
+        "parent_app_name": "worker-health-check",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "0f286d40-989e-4404-be99-68ceef1f64d8",
+        "url": "/v2/app_usage_events/0f286d40-989e-4404-be99-68ceef1f64d8",
+        "created_at": "2017-07-24T17:45:04Z"
+      },
+      "entity": {
+        "state": "STAGING_STOPPED",
+        "previous_state": "STAGING",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "",
+        "app_name": "",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "9dc785d4-3779-4968-a011-a78725921555",
+        "buildpack_name": "nodejs_buildpack",
+        "package_state": "READY",
+        "previous_package_state": "READY",
+        "parent_app_guid": "9cf4cd07-40f0-43e6-81c7-54d5f249c436",
+        "parent_app_name": "worker-app-dev",
+        "process_type": null,
+        "task_name": null,
+        "task_guid": null
+      }
+    },
+    {
+      "metadata": {
+        "guid": "d7e62026-a0bc-43a9-8bbc-76b688d49af1",
+        "url": "/v2/app_usage_events/d7e62026-a0bc-43a9-8bbc-76b688d49af1",
+        "created_at": "2017-07-24T17:45:04Z"
+      },
+      "entity": {
+        "state": "BUILDPACK_SET",
+        "previous_state": "STARTED",
+        "memory_in_mb_per_instance": 1024,
+        "previous_memory_in_mb_per_instance": 1024,
+        "instance_count": 1,
+        "previous_instance_count": 1,
+        "app_guid": "9cf4cd07-40f0-43e6-81c7-54d5f249c436",
+        "app_name": "worker-app-dev",
+        "space_guid": "29f342ec-0e67-4dac-90d5-2cc8bf5d184c",
+        "space_name": "metrics-v1-3",
+        "org_guid": "5808f2f5-c7fb-47cc-a8e5-2de63ee66e1b",
+        "buildpack_guid": "9dc785d4-3779-4968-a011-a78725921555",
+        "buildpack_name": "nodejs_buildpack",
+        "package_state": "STAGED",
+        "previous_package_state": "UNKNOWN",
+        "parent_app_guid": "9cf4cd07-40f0-43e6-81c7-54d5f249c436",
+        "parent_app_name": "worker-app-dev",
+        "process_type": "web",
+        "task_name": null,
+        "task_guid": null
+      }
+    }
+  ]
+}
